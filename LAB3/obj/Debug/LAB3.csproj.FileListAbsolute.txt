@@ -1,0 +1,11 @@
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\bin\Debug\LAB3.exe.config
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\bin\Debug\LAB3.exe
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\bin\Debug\LAB3.pdb
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.csproj.AssemblyReference.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.Properties.Resources.resources
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.csproj.GenerateResource.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.csproj.CoreCompileInputs.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.exe
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.pdb
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 3\LAB3\obj\Debug\LAB3.Form1.resources
