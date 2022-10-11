@@ -22,6 +22,10 @@ namespace LAB4
 
         Line prim_edge;
         int edge_c = 0;
+        Line second_edge;
+        int second_edge_c = 0;
+        Point intersect_point;
+        bool second_awaited = false;
 
         Polygon prim_polygon;
         bool first_point = true;
@@ -49,6 +53,8 @@ namespace LAB4
 
             pictureBox1.Image = bitmap;
             prim_edge = new Line();
+            second_edge = new Line();
+            intersect_point = new Point(-100, -100);
 
             prim_polygon = new Polygon();
             center = new Point(pictureBox1.Width / 2, pictureBox1.Height / 2);
@@ -205,6 +211,11 @@ namespace LAB4
             {
                 DrawPrimEdge();
             }
+            
+            if (second_edge != null && second_edge._p1.X != -1)
+            {
+                addSecondEdge();
+            }
 
             if (!first_point || prim_polygon._done)
             {
@@ -212,6 +223,11 @@ namespace LAB4
             }
 
             g.FillEllipse(new SolidBrush(Color.DarkOrange), center.X, center.Y, 13, 13);
+            if (prim_edge._p1.X != -1 && second_edge._p1.X != -1)
+            {
+                g.FillEllipse(new SolidBrush(Color.Pink), intersect_point.X - 5, intersect_point.Y - 5, 10, 10);
+            }
+
             pictureBox1.Refresh();
         }
 
@@ -226,6 +242,14 @@ namespace LAB4
             DrawPoint(prim_edge._p1.X, prim_edge._p1.Y, point_radius);
             DrawPoint(prim_edge._p2.X, prim_edge._p2.Y, point_radius);
             g.DrawLine(new Pen(my_color, 5), prim_edge._p1, prim_edge._p2);
+            pictureBox1.Refresh();
+        }
+
+        private void addSecondEdge()
+        {
+            g.FillEllipse(new SolidBrush(Color.Green), second_edge._p1.X - point_radius, second_edge._p1.Y - point_radius, 2 * point_radius, 2 * point_radius);
+            g.FillEllipse(new SolidBrush(Color.Green), second_edge._p2.X - point_radius, second_edge._p2.Y - point_radius, 2 * point_radius, 2 * point_radius);
+            g.DrawLine(new Pen(Color.Green, 3), second_edge._p1, second_edge._p2);
             pictureBox1.Refresh();
         }
 
@@ -263,19 +287,68 @@ namespace LAB4
                 RedrawScene();
             }
             else if (!line_button.Enabled)
-            {    
-                if (edge_c == 0)
+            {
+                intersect_point = new Point();
+                if (second_awaited)
                 {
-                    prim_edge._p1 = mouse_ev.Location;
-                    edge_c++;
-                    prim_edge._p2 = mouse_ev.Location;
+                    if (second_edge_c == 0)
+                    {
+                        second_edge._p1 = mouse_ev.Location;
+                        second_edge_c++;
+                        second_edge._p2 = new Point(-1, -1);
+                    }
+                    else
+                    {
+                        second_edge._p2 = mouse_ev.Location;
+                        second_edge_c--;
+                    }
+
+                    if (second_edge._p1.X != -1 && second_edge._p2.X != -1)
+                    {
+                        var p = GetIntersect(prim_edge, second_edge);
+                        if (p.X == -1)
+                        {
+                            Console.WriteLine("No intersection.");
+                        }
+                        else
+                        {
+                            intersect_point = p;
+                            Console.WriteLine($"X = {p.X}; Y = {p.Y};");
+                        }
+                        second_awaited = false;
+                        RedrawScene();
+                    }
                 }
                 else
                 {
-                    prim_edge._p2 = mouse_ev.Location;
-                    edge_c--;
+                    if (edge_c == 0)
+                    {
+                        prim_edge._p1 = mouse_ev.Location;
+                        edge_c++;
+                        prim_edge._p2 = new Point(-1, -1);
+                    }
+                    else
+                    {
+                        prim_edge._p2 = mouse_ev.Location;
+                        edge_c--;
+                    }
+
+                    if (prim_edge._p1.X != -1 && prim_edge._p2.X != -1)
+                    {
+                        var p = GetIntersect(prim_edge, second_edge);
+                        if (p.X == -1)
+                        {
+                            Console.WriteLine("No intersection.");
+                        }
+                        else
+                        {
+                            intersect_point = p;
+                            Console.WriteLine($"X = {p.X}; Y = {p.Y};");
+                        }
+                        second_awaited = true;
+                        RedrawScene();
+                    }
                 }
-                RedrawScene();
             }
             else if (!polygon_button.Enabled)
             {
@@ -463,6 +536,67 @@ namespace LAB4
         private void scale_button_Click(object sender, EventArgs e)
         {
             afinne("scale");
+        }
+
+        private Point GetIntersect(Line l1, Line l2)
+        {
+            (var p1, var p2, var p3, var p4) = (l1._p1, l1._p2, l2._p1, l2._p2);
+            double v1 = (p4.X - p3.X) * (p1.Y - p3.Y) - (p4.Y - p3.Y) * (p1.X - p3.X);
+            double v2 = (p4.X - p3.X) * (p2.Y - p3.Y) - (p4.Y - p3.Y) * (p2.X - p3.X);
+            double v3 = (p2.X - p1.X) * (p3.Y - p1.Y) - (p2.Y - p1.Y) * (p3.X - p1.X);
+            double v4 = (p2.X - p1.X) * (p4.Y - p1.Y) - (p2.Y - p1.Y) * (p4.X - p1.X);
+
+            if (v1 * v2 >= 0 || v3 * v4 >= 0)
+                return new Point(-1, -1);
+
+            double a1 = p2.Y - p1.Y;
+            double b1 = p1.X - p2.X;
+            double c1 = p1.X * (p1.Y - p2.Y) + p1.Y * (p2.X - p1.X);
+
+            double a2 = p4.Y - p3.Y;
+            double b2 = p3.X - p4.X;
+            double c2 = p3.X * (p3.Y - p4.Y) + p3.Y * (p4.X - p3.X);
+
+            double D = a1 * b2 - a2 * b1;
+            double Dx = c2 * b1 - c1 * b2;
+            double Dy = a2 * c1 - a1 * c2;
+
+            return new Point((int)(Dx / D), (int)(Dy / D));
+        }
+        private void lineRotationButton_Click(object sender, EventArgs e)
+        {
+            Matrix m = new Matrix(3);
+
+            var rad_angle = 90 * Math.PI / 180;
+            m[0, 0] = Math.Cos(rad_angle);
+            m[0, 1] = Math.Sin(rad_angle);
+            m[0, 2] = 0;
+            m[1, 0] = -Math.Sin(rad_angle);
+            m[1, 1] = Math.Cos(rad_angle);
+            m[1, 2] = 0;
+            m[2, 0] = 0;
+            m[2, 1] = 0;
+            m[2, 2] = 1;
+
+            var xc = (prim_edge._p1.X + prim_edge._p2.X) / 2;
+            var yc = (prim_edge._p1.Y + prim_edge._p2.Y) / 2;
+
+            Matrix a = new Matrix(1, 3);
+            a[0, 0] = prim_edge._p1.X - xc;
+            a[0, 1] = prim_edge._p1.Y - yc;
+            a[0, 2] = 1;
+
+            Matrix b = new Matrix(1, 3);
+            b[0, 0] = prim_edge._p2.X - xc;
+            b[0, 1] = prim_edge._p2.Y - yc;
+            b[0, 2] = 1;
+
+            var res_a = a * m;
+            var res_b = b * m;
+
+            prim_edge = new Line(new Point((int)res_a[0, 0] + xc, (int)res_a[0, 1] + yc), new Point((int)res_b[0, 0] + xc, (int)res_b[0, 1] + yc));
+
+            RedrawScene();
         }
     }
 }
