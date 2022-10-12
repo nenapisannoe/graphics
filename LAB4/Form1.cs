@@ -420,7 +420,9 @@ namespace LAB4
             prim_point = new Point();
             prim_edge = new Line();
             prim_polygon = new Polygon();
+            second_edge = new Line();
             edge_c = 0;
+            second_edge_c = 0;
 
             g.FillEllipse(new SolidBrush(Color.DarkOrange), center.X, center.Y, 13, 13);
 
