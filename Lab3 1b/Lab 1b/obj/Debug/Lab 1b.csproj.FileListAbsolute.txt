@@ -1,0 +1,11 @@
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\bin\Debug\Lab 1b.exe.config
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\bin\Debug\Lab 1b.exe
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\bin\Debug\Lab 1b.pdb
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab_1b.Form1.resources
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab_1b.Properties.Resources.resources
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.exe
+C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.pdb
