@@ -15,11 +15,9 @@ namespace Lab_1b
         Bitmap back;
         List<Tuple<Point, Point>> l = new List<Tuple<Point, Point>>();
 
-
-
         public Form1()
         {
-            InitializeComponent(); ;
+            InitializeComponent();
 
             //создаем фон
             pictureBox.Image = new Bitmap(pictureBox.Width, pictureBox.Height);

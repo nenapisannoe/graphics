@@ -9,3 +9,14 @@ C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.GenerateResour
 C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.exe
 C:\Users\Admin\source\repos\Lab 1b\Lab 1b\obj\Debug\Lab 1b.pdb
+D:\sfedu\graphics\Lab3 1b\Lab 1b\bin\Debug\Lab 1b.exe.config
+D:\sfedu\graphics\Lab3 1b\Lab 1b\bin\Debug\Lab 1b.exe
+D:\sfedu\graphics\Lab3 1b\Lab 1b\bin\Debug\Lab 1b.pdb
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.csproj.AssemblyReference.cache
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.csproj.SuggestedBindingRedirects.cache
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab_1b.Form1.resources
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab_1b.Properties.Resources.resources
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.csproj.GenerateResource.cache
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.csproj.CoreCompileInputs.cache
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.exe
+D:\sfedu\graphics\Lab3 1b\Lab 1b\obj\Debug\Lab 1b.pdb

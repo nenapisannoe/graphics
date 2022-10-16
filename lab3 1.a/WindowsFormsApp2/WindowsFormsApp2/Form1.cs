@@ -87,10 +87,8 @@ namespace WindowsFormsApp2
         private void fill(Point p)
         {
             Color formColor = imageForPictureBox.GetPixel(p.X, p.Y);
-            if (0 <= p.X &&
-                p.X < imageForPictureBox.Width &&
-                0 <= p.Y &&
-                p.Y < imageForPictureBox.Height - 1 &&
+            if (0 <= p.X && p.X < imageForPictureBox.Width &&
+                0 <= p.Y && p.Y < imageForPictureBox.Height - 1 &&
                 colorIsNotEquals(formColor, Color.Black) &&
                 colorIsNotEquals(formColor, penFill.Color))
             {
