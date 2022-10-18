@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("LAB5 T2")]
+[assembly: AssemblyTitle("LAB2_T2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LAB5 T2")]
+[assembly: AssemblyProduct("LAB2_T2")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("1cb652ed-d194-40a2-ad19-0b9226c199e4")]
+[assembly: Guid("3a70e49a-b7ec-492c-b2e7-a8d7acc6338d")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
