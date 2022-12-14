@@ -1,0 +1,42 @@
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\bin\Debug\Lab06.exe.config
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\bin\Debug\Lab06.exe
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\bin\Debug\Lab06.pdb
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab7.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab06.Form1.resources
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab06.Properties.Resources.resources
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab7.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab7.csproj.CopyComplete
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab06.exe
+C:\Users\Admin\Desktop\7\CompGraphicsLab07\obj\Debug\Lab06.pdb
+C:\Users\Admin\Desktop\7\Lab07\bin\Debug\Lab06.exe.config
+C:\Users\Admin\Desktop\7\Lab07\bin\Debug\Lab06.exe
+C:\Users\Admin\Desktop\7\Lab07\bin\Debug\Lab06.pdb
+C:\Users\Admin\Desktop\7\Lab07\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\7\Lab07\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab7.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab06.Form1.resources
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab06.Properties.Resources.resources
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab7.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab7.csproj.CopyComplete
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab06.exe
+C:\Users\Admin\Desktop\7\Lab07\obj\Debug\Lab06.pdb
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\bin\Debug\Lab06.exe.config
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\bin\Debug\Lab06.exe
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\bin\Debug\Lab06.pdb
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab7.csproj.AssemblyReference.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab7.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab06.Form1.resources
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab06.Properties.Resources.resources
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab7.csproj.GenerateResource.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab7.csproj.CoreCompileInputs.cache
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab7.csproj.CopyComplete
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab06.exe
+D:\Documents\Мехмат_учебники_инфа_остальное\4 курс\Комп графика (экз)\Практика_КГ\Лаба 7\Lab07\Lab07\obj\Debug\Lab06.pdb
