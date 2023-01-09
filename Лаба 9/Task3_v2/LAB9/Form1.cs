@@ -71,7 +71,6 @@ namespace LAB9
                     //отображение координат
                     double fx = x * Math.Cos(fi2) - (-Math.Sin(fi1) * y + Math.Cos(fi1) * func) * Math.Sin(fi2);
                     double fy = y * Math.Cos(fi1) + func * Math.Sin(fi1);
-                    double fz = (-Math.Sin(fi1) * y + Math.Cos(fi1) * func);
 
                     //отображение графика на pictureBox1
                     int x2 = (int)Math.Round(fx * 50 + (bmp.Width / 2));
